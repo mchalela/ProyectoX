@@ -4,6 +4,7 @@ def fib(n):
     values = [0, 1]
     while values[-2] < n:
         values.append(values[-2] + values[-1])
+    print(n)
     return values
 
 
