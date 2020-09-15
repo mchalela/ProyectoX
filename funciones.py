@@ -1,6 +1,7 @@
 
 
 def fib(n):
+	'''documentacion'''
     values = [0, 1]
     while values[-2] < n:
         values.append(values[-2] + values[-1])
@@ -8,6 +9,7 @@ def fib(n):
 
 
 def prime(n):
+	'''documentacion'''
     p = []
     for num in range(n+1):
         for i in range(2, num):
