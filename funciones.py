@@ -17,4 +17,5 @@ def prime(n):
                 break
         else:
             p.append(num)
+    print(p)
     return p
