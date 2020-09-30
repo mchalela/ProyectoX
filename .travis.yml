@@ -8,7 +8,7 @@ sudo: true
 
 install:
   - pip install tox
-  - pip install coveralls
+#  - pip install coveralls
 
 script:
   - tox -r
@@ -30,5 +30,5 @@ matrix:
           dist: xenial
           sudo: true
 
-after_success:
-  - coveralls
+#after_success:
+#  - coveralls
