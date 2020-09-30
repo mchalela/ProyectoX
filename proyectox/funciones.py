@@ -1,22 +1,20 @@
 
 
 def fib(n):
-	'''documentacion'''
+    '''documentacion'''
     values = [0, 1]
-    while values[-2] < n:
-        values.append(values[-2] + values[-1])
-    print(n)
+    while (new := values[-2] + values[-1]) <= n:
+        values.append(new)
     return values
 
 
 def prime(n):
-	'''documentacion'''
+    '''documentacion'''
     p = []
-    for num in range(n+1):
+    for num in range(1, n+1):
         for i in range(2, num):
             if (num % i) == 0:
                 break
         else:
             p.append(num)
-    print(n, p)
     return p
