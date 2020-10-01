@@ -3,8 +3,8 @@
 def fib(n):
     '''documentacion'''
     values = [0, 1]
-    while (new := values[-2] + values[-1]) <= n:
-        values.append(new)
+    while (values[-2] + values[-1]) <= n:
+        values.append(values[-2] + values[-1])
     return values
 
 
