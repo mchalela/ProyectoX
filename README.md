@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/mchalela/ProyectoX.svg?branch=master)](https://travis-ci.org/mchalela/ProyectoX)
+[![Documentation Status](https://readthedocs.org/projects/proyectox/badge/?version=latest)](https://proyectox.readthedocs.io/en/latest/?badge=latest)
 
 # README
 -----
